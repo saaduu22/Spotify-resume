@@ -182,8 +182,8 @@ def get_token():
 # Spotify Application information
 def create_spotify_oauth():
     return SpotifyOAuth(
-            client_id="3dee882b2b884312968d04d3becf7c0a",
-            client_secret="341ff3e92c4d4bba9dc7551cfeb2222d",
+            client_id="client id from spotify dev app",
+            client_secret="client secret from spotify dev app",
             redirect_uri=url_for('authorize', _external=True),
             scope="user-top-read user-library-read playlist-modify-public playlist-modify-private")
 
